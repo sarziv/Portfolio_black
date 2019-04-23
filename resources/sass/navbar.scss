@@ -1,0 +1,66 @@
+@import "variables";
+
+.navbar {
+  font-size: 2vh;
+  font-family: $font-family-share-tech-mono;
+  background-color: $black;
+  color: $white;
+
+  .navbar-toggler {
+    background-color: $white;
+    width: 40px;
+  }
+
+  .navbar-toggler-icon-color {
+    color: $black;
+  }
+  .navbar-brand {
+    color: $yellow !important;
+  }
+
+  //animation
+  .borderYtoX a:before, .borderYtoX a:after {
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: $yellow;
+    transition: all 0.3s;
+  }
+
+
+  /* Border X get width  */
+  .borderXwidth a:before, .borderXwidth a:after {
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: $yellow;
+    transition: all 0.3s;
+  }
+
+  .borderXwidth a:before {
+    left: 0px;
+    top: 0px;
+  }
+
+  .borderXwidth a:after {
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .borderXwidth a:hover:before, .borderXwidth a:hover:after {
+    opacity: 1;
+    width: 100%;
+  }
+
+  .containerAn a
+  {
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+  }
+
+}
