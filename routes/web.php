@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('app');
-});
+/*File routes -> RouteController*/
+
+//Redirect to home
+Route::get('/', 'RouteController@homeRedirect');
+
+//Route paths
+Route::get('/home', 'RouteController@home');
+Route::get('/about', 'RouteController@about');
+Route::get('/projects', 'RouteController@projects');
+Route::get('/contacts', 'RouteController@contacts');
