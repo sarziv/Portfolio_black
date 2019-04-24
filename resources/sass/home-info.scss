@@ -1,0 +1,88 @@
+@import "variables";
+
+.home-info {
+  font-family: "Share Tech Mono", monospace;
+  width: auto;
+  height: 40vh;
+  margin-bottom: 10vh;
+
+  color: $white;
+  //Mobile
+  @media only screen and (max-width: 600px) {
+    margin-top: 5vh;
+  }
+  //Desktop
+  @media only screen and (min-width: 600px) {
+    margin-top: 18vh;
+  }
+
+
+  .home-info-text {
+    color: $yellow;
+    font-size: $font-size-info-big;
+  }
+
+  .home-info-bar {
+    font-size: $font-size-info-small;
+  }
+}
+
+.home-info-details {
+
+  z-index: -1;
+  height: 60vh;
+  width: auto;
+  background-image: url("../../resources/images/mockaroon-773721-unsplash.jpg");
+  clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+  background-size: cover;
+
+  //Desktop
+  @media only screen and (min-width: 600px) {
+    .home-info-details-font {
+      background: transparent;
+      text-align: center;
+      padding-top: 18vh;
+      font-family: "Share Tech Mono", monospace;
+      font-size: $font-size-info-big;
+      color: $yellow;
+      z-index: 100;
+    }
+  }
+
+  //Mobile
+  @media only screen and (max-width: 600px) {
+    .home-info-details-font {
+      background: transparent;
+      text-align: center;
+      padding-top: 10vh;
+      font-family: "Share Tech Mono", monospace;
+      font-size: $font-size-info-big;
+      color: $yellow;
+      z-index: 100;
+    }
+  }
+
+  .home-info-buttons {
+    color: $black;
+    border: 2px $black solid;
+    font-family: "Share Tech Mono", monospace;
+    height: 1vh;
+  }
+
+  .home-info-buttons:hover {
+    border: 2px $yellow solid;
+    background-color: $black;
+    color: $yellow;
+  }
+
+  //link override
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}

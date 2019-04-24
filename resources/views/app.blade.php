@@ -22,8 +22,24 @@
     @yield('content')
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/navbar.js') }}"></script>
+<script src="{{ asset('js/lax.min.js')}}" ></script>
+
+<script type="text/javascript">
+//lax
+    window.onload = function() {
+        lax.setup() // init
+
+        const updateLax = () => {
+            lax.update(window.scrollY)
+            window.requestAnimationFrame(updateLax)
+        }
+
+        window.requestAnimationFrame(updateLax)
+    };
+</script>
+
 </body>
 </html>

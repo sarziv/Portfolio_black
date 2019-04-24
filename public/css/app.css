@@ -10,7 +10,6 @@
 
 .navbar .navbar-toggler {
   background-color: white;
-  width: 40px;
 }
 
 .navbar .navbar-toggler-icon-color {
@@ -75,12 +74,140 @@
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
           clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .land-page .header {
   z-index: 10;
   font-size: 8vh;
+}
+
+.land-page .quate {
+  font-size: 2vh;
+}
+
+.footer {
+  font-size: 2vh;
+  font-family: "Share Tech Mono", monospace;
+  text-align: center;
+  position: relative;
+  padding-top: 20vh;
+  height: 50vh;
+  width: auto;
+}
+
+.footer .footer-menu {
+  color: white;
+}
+
+.footer .soc-media {
+  margin-top: 2vh;
+  padding-top: 2vh;
+  height: 8vh;
+  width: auto;
+  border-top: 2px #ffeb00 solid;
+  border-bottom: 2px #ffeb00 solid;
+}
+
+.footer .madewithlove {
+  font-size: 2vh;
+  padding-top: 2vh;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-info {
+  font-family: "Share Tech Mono", monospace;
+  width: auto;
+  height: 40vh;
+  margin-bottom: 10vh;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-info {
+    margin-top: 5vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .home-info {
+    margin-top: 18vh;
+  }
+}
+
+.home-info .home-info-text {
+  color: #ffeb00;
+  font-size: 6vh;
+}
+
+.home-info .home-info-bar {
+  font-size: 2vh;
+}
+
+.home-info-details {
+  z-index: -1;
+  height: 60vh;
+  width: auto;
+  background-image: url(/images/mockaroon-773721-unsplash.jpg?5f813e7cfe001f1314c81e53f0bb12fb);
+  -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+          clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+  background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+  .home-info-details .home-info-details-font {
+    background: transparent;
+    text-align: center;
+    padding-top: 18vh;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 6vh;
+    color: #ffeb00;
+    z-index: 100;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-info-details .home-info-details-font {
+    background: transparent;
+    text-align: center;
+    padding-top: 10vh;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 6vh;
+    color: #ffeb00;
+    z-index: 100;
+  }
+}
+
+.home-info-details .home-info-buttons {
+  color: #000000;
+  border: 2px #000000 solid;
+  font-family: "Share Tech Mono", monospace;
+  height: 1vh;
+}
+
+.home-info-details .home-info-buttons:hover {
+  border: 2px #ffeb00 solid;
+  background-color: #000000;
+  color: #ffeb00;
+}
+
+.home-info-details a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-info-details a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*!
