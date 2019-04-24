@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark info-color">
+<nav class="navbar navbar-expand-lg info-color">
     <a class="navbar-brand" href="/home">ŠŽ</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars navbar-toggler-icon-color"></i>

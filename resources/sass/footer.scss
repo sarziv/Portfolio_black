@@ -8,23 +8,23 @@
   padding-top: 20vh;
   height: 50vh;
   width: auto;
+  color: $white;
 
 
   .footer-menu {
-    color: $white;
-
-  }
-  .soc-media {
-    margin-top: 2vh;
+    margin-top: 4vh;
     padding-top: 2vh;
     height: 8vh;
     width: auto;
     border-top: 2px $yellow solid;
-    border-bottom: 2px $yellow solid;
+
   }
+
   .madewithlove {
+    margin-top: 2vh;
+    border-top: 2px $yellow solid;
     font-size: $font-size-info-small;
-    padding-top: 2vh;
+    padding-top: 4vh;
   }
   //link override
   a {

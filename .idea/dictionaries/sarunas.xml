@@ -2,9 +2,11 @@
   <dictionary name="sarunas">
     <words>
       <w>csrf</w>
+      <w>madewithlove</w>
       <w>navbar</w>
       <w>quate</w>
       <w>toggler</w>
+      <w>unsplash</w>
     </words>
   </dictionary>
 </component>

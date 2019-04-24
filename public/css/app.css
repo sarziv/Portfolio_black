@@ -64,6 +64,20 @@
   cursor: pointer;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar .nav-item:hover {
+  color: #ffeb00;
+}
+
 .land-page {
   z-index: -1;
   font-family: "Share Tech Mono", monospace;
@@ -94,24 +108,22 @@
   padding-top: 20vh;
   height: 50vh;
   width: auto;
-}
-
-.footer .footer-menu {
   color: white;
 }
 
-.footer .soc-media {
-  margin-top: 2vh;
+.footer .footer-menu {
+  margin-top: 4vh;
   padding-top: 2vh;
   height: 8vh;
   width: auto;
   border-top: 2px #ffeb00 solid;
-  border-bottom: 2px #ffeb00 solid;
 }
 
 .footer .madewithlove {
+  margin-top: 2vh;
+  border-top: 2px #ffeb00 solid;
   font-size: 2vh;
-  padding-top: 2vh;
+  padding-top: 4vh;
 }
 
 .footer a {

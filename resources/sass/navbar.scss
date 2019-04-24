@@ -1,11 +1,12 @@
 @import "variables";
 
 .navbar {
+
   font-size: 2vh;
   font-family: $font-family-share-tech-mono;
   background-color: rgb($black,0.8);
-
   color: $white;
+
 
   .navbar-toggler {
     background-color: $white;
@@ -62,5 +63,20 @@
     z-index: 0;
     cursor: pointer;
   }
+
+  //link override
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    text-decoration:none;
+    color: inherit;
+  }
+
+  .nav-item:hover{
+    color: $yellow;
+  }
+
 
 }

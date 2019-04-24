@@ -1,10 +1,12 @@
 {{--Home page--}}
 <div class="container text-center home-info">
     <div class="row">
-        <div class="col-sm-6 home-info-text lax" data-lax-preset="driftRight">
-            HEY!
-            <br>
-            THERE!
+        <div class="col-sm-6 home-info-text " >
+            <div class="lax" data-lax-preset="driftRight">
+                HEY!
+                <br>
+                THERE!
+            </div>
         </div>
         <div class="col-sm-6 home-info-bar lax" data-lax-preset="fadeOut">
             Hi! This website is overview of my skills, projects and some information if you want to contact me.<br> So just go strait into action... :)
