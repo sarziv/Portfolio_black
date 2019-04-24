@@ -1,4 +1,6 @@
 @extends('app')
+{{-- About page content --}}
 @section('content')
-    <h1 style="color:white;">Contacts section</h1>
+    {{-- Landing page --}}
+    @include('land-page')
 @endsection

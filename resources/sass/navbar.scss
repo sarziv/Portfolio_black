@@ -3,7 +3,8 @@
 .navbar {
   font-size: 2vh;
   font-family: $font-family-share-tech-mono;
-  background-color: $black;
+  background-color: rgb($black,0.8);
+
   color: $white;
 
   .navbar-toggler {
