@@ -84,7 +84,6 @@
   padding-top: 30vh;
   color: #000000;
   height: 90vh;
-  width: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
           clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
   background-size: cover;
@@ -162,6 +161,7 @@
 }
 
 .home-info .home-info-bar {
+  padding-top: 10vh;
   font-size: 2vh;
 }
 
@@ -218,6 +218,96 @@
 }
 
 .home-info-details a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about-info {
+  font-family: "Share Tech Mono", monospace;
+  width: auto;
+  height: 40vh;
+  margin-bottom: 10vh;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-info {
+    margin-top: 5vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .about-info {
+    margin-top: 18vh;
+  }
+}
+
+.about-info .about-info-text {
+  color: #ffeb00;
+  font-size: 6vh;
+}
+
+.about-info .extra-padd {
+  padding-top: 8vh;
+}
+
+.about-info .about-info-bar {
+  padding-top: 10vh;
+  font-size: 2vh;
+}
+
+.about-info-details {
+  z-index: -1;
+  height: 60vh;
+  width: auto;
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, rgba(241, 242, 36, 0.8659838936) 0%, #286f1b 0%, #c93d05 0%, #00d4ff 100%, #09791f 100%);
+  -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+          clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+@media only screen and (min-width: 600px) {
+  .about-info-details .about-info-details-font {
+    background: transparent;
+    text-align: center;
+    padding-top: 25vh;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 6vh;
+    color: #ffeb00;
+    z-index: 100;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-info-details .about-info-details-font {
+    background: transparent;
+    text-align: center;
+    padding-top: 10vh;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 6vh;
+    color: #ffeb00;
+    z-index: 100;
+  }
+}
+
+.about-info-details .about-info-img img {
+  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+}
+
+.about-info-details .about-info-buttons:hover {
+  border: 2px #ffeb00 solid;
+  background-color: #000000;
+  color: #ffeb00;
+}
+
+.about-info-details a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about-info-details a:hover {
   text-decoration: none;
   color: inherit;
 }

@@ -21,7 +21,7 @@ class RouteController extends BaseController
     public function home()
     {
 
-        //landing page info
+        //Home page info
         $this->info = [
             'title' => 'Welcome!',
             'quate' => 'Nice to meet you.',
@@ -39,7 +39,7 @@ class RouteController extends BaseController
         $this->info = [
             'title' => 'About me',
             'quate' => 'A little bit more',
-            'background' => '../images/steve-halama-698056-unsplash.jpg'
+            'background' => '../images/mohamed-nohassi-229698-unsplash.jpg'
         ];
 
 
@@ -54,8 +54,8 @@ class RouteController extends BaseController
 
         $this->info = [
             'title' => 'Projects',
-            'quate' => 'Fun fun fun',
-            'background' => '../images/bethany-legg-9248-unsplash.jpg'
+            'quate' => 'Dreams come true.',
+            'background' => '../images/jeshoots-com-219386-unsplash.jpg'
         ];
 
         return view('layouts.projects')->with('info', $this->info);
@@ -69,7 +69,7 @@ class RouteController extends BaseController
         $this->info = [
             'title' => 'Contacts',
             'quate' => 'Get in touch',
-            'background' => '../images/minh-pham-1511848-unsplash.jpg'
+            'background' => '../images/quino-al-302041-unsplash.jpg'
         ];
 
         return view('layouts.contacts')->with('info', $this->info);
