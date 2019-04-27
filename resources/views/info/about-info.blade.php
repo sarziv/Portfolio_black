@@ -21,12 +21,12 @@
         I work with...
         <div class=" about-info-img">
             <div class="d-inline align-content-center">
-                <img src="{{asset('icons/laravel.png')}}">
-                <img src="{{asset('icons/php.png')}}">
-                <img src="{{asset('icons/jquery.png')}}">
-                <img src="{{asset('icons/html5.png')}}">
-                <img src="{{asset('icons/css3.png')}}">
-                <img src="{{asset('icons/js.png')}}">
+                <img alt="" src="{{asset('icons/laravel.png')}}">
+                <img alt="" src="{{asset('icons/php.png')}}">
+                <img alt="" src="{{asset('icons/jquery.png')}}">
+                <img alt="" src="{{asset('icons/html5.png')}}">
+                <img alt="" src="{{asset('icons/css3.png')}}">
+                <img alt="" src="{{asset('icons/js.png')}}">
             </div>
 
         </div>
@@ -41,10 +41,9 @@
             </div>
         </div>
         <div class="col-sm-6 about-info-bar lax" data-lax-preset="fadeOut">
-            Mostly working as freelancer, with above mentioned technologies.<br>
+            Mostly working as small freelancer, with above mentioned technologies.<br>
+            Main strength are back-end php, mySQL.<br>
             Laravel [LAMP stack], CSS, HTML, Bootstrap, Git.<br>
-
-
         </div>
     </div>
 </div>

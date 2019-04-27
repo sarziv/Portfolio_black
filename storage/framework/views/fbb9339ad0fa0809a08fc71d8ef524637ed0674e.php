@@ -6,16 +6,16 @@
                 Menu:
             </div>
             <div class="col-sm-2">
-                <a href="{{url('/home')}}">Home</a>
+                <a href="<?php echo e(url('/home')); ?>">Home</a>
             </div>
             <div class="col-sm-2">
-                <a href="{{url('/about')}}">About</a>
+                <a href="<?php echo e(url('/about')); ?>">About</a>
             </div>
             <div class="col-sm-2">
-                <a href="{{url('/projects')}}">Projects</a>
+                <a href="<?php echo e(url('/projects')); ?>">Projects</a>
             </div>
             <div class="col-sm-2">
-                <a href="{{url('/contacts')}}">Contacts</a>
+                <a href="<?php echo e(url('/contacts')); ?>">Contacts</a>
             </div>
             <div class="col-sm-1">
                 Link:
@@ -35,7 +35,7 @@
         <div class="madewithlove row">
             <div class="col-sm-6">
             Download resume:<br>
-                <a href="{{action('DownloadController@download_CV')}}" class=" btn resumeButton">Resume</a>
+                <a href="{{}}" class=" btn resumeButton">Resume</a>
             </div>
             <div class="col-sm-6">
             Created with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i>, Laravel, SCSS, Awesome
@@ -47,4 +47,4 @@
 
 
 
-</div>
+</div><?php /**PATH /home/vagrant/Portfolio_black/resources/views/footer.blade.php ENDPATH**/ ?>

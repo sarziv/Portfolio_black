@@ -26,14 +26,27 @@
     font-size: $font-size-info-small;
     padding-top: 4vh;
   }
+
   //link override
   a {
     text-decoration: none;
     color: inherit;
   }
+
   a:hover {
-    text-decoration:none;
+    text-decoration: none;
     color: inherit;
   }
+
+  .resumeButton {
+    font-size: $font-size-info-small;
+    border: 2px solid $yellow;
+  }
+
+  .resumeButton:hover {
+    color: $black !important;
+    background-color: $yellow;
+  }
+
 
 }

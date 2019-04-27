@@ -135,6 +135,16 @@
   color: inherit;
 }
 
+.footer .resumeButton {
+  font-size: 2vh;
+  border: 2px solid #ffeb00;
+}
+
+.footer .resumeButton:hover {
+  color: #000000 !important;
+  background-color: #ffeb00;
+}
+
 .home-info {
   font-family: "Share Tech Mono", monospace;
   width: auto;
