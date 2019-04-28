@@ -49266,8 +49266,8 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
  *
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
-// const downlaod = require.context('./', true, /\.vue$/i);
-// downlaod.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], downlaod(key).default));
+// const download = require.context('./', true, /\.vue$/i);
+// download.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], download(key).default));
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 /**

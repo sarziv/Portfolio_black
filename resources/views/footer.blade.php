@@ -35,7 +35,7 @@
         <div class="madewithlove row">
             <div class="col-sm-6">
             Download resume:<br>
-                <a href="{{action('DownloadController@download_CV')}}" class=" btn resumeButton">Resume</a>
+                <a href="{{url('/cv')}}" class=" btn resumeButton">Resume</a>
             </div>
             <div class="col-sm-6">
             Created with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i>, Laravel, SCSS, Awesome

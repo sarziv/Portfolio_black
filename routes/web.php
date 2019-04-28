@@ -21,3 +21,6 @@ Route::get('/home', 'RouteController@home');
 Route::get('/about', 'RouteController@about');
 Route::get('/projects', 'RouteController@projects');
 Route::get('/contacts', 'RouteController@contacts');
+
+//Download
+Route::get('/cv', 'DownloadController@download_CV');

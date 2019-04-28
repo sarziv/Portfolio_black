@@ -17,8 +17,8 @@ window.Vue = require('vue');
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-// const downlaod = require.context('./', true, /\.vue$/i);
-// downlaod.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], downlaod(key).default));
+// const download = require.context('./', true, /\.vue$/i);
+// download.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], download(key).default));
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
