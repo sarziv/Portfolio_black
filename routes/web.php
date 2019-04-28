@@ -16,11 +16,15 @@
 //Redirect to home
 Route::get('/', 'RouteController@homeRedirect');
 
-//Route paths
+//Route Controller
 Route::get('/home', 'RouteController@home');
 Route::get('/about', 'RouteController@about');
-Route::get('/projects', 'RouteController@projects');
 Route::get('/contacts', 'RouteController@contacts');
+
+//Project Controller
+Route::get('/projects', 'ProjectController@projects');
+
+
 
 //Download
 Route::get('/cv', 'DownloadController@download_CV');

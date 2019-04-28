@@ -1,0 +1,72 @@
+@import "variables";
+
+.project-containter-padding {
+  padding-top: 15vh;
+}
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background:linear-gradient(135deg, #fcdf8a 0%,#f38381 100%);
+  padding-top: 2vh;
+  border-radius: 5%;
+  margin-left: 2vw;
+  margin-top: 5vh;
+  width: auto;
+  height: 40vh;
+  font-family: "Share Tech Mono", monospace;
+  color: $black;
+
+  .project-title {
+    position: absolute;
+    width: auto;
+    font-size: 2vh;
+    padding-bottom: 5vh;
+
+  }
+  .project-details {
+    width: auto;
+    padding-top: 6vh;
+    position: absolute;
+  }
+  .project-tags {
+    position: absolute;
+    padding-top: 15vh;
+  }
+
+  .project-design {
+    position: absolute;
+    bottom: 10vh;
+    left: 30%;
+  }
+
+  .project-code {
+    color: $white;
+    position: absolute;
+
+    left: 35%;
+    //Mobile
+    @media only screen and (max-width: 600px) {
+      bottom: 2vh;
+    }
+    //Desktop
+    @media only screen and (min-width: 600px) {
+      bottom: 5vh;
+    }
+  }
+
+}
+.modal-button-exit {
+  position: fixed;
+  top: 15px;
+  right: 40px;
+}
+.model-exit-icon {
+  color: red;
+  width: 15px;
+  height: 15px;
+  z-index: 1050;
+}

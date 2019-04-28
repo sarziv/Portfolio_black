@@ -47,20 +47,6 @@ class RouteController extends BaseController
 
     }
 
-    //Projects page route
-    public function projects()
-    {
-
-
-        $this->info = [
-            'title' => 'Projects',
-            'quate' => 'Dreams come true.',
-            'background' => '../images/jeshoots-com-219386-unsplash.jpg'
-        ];
-
-        return view('layouts.projects')->with('info', $this->info);
-
-    }
 
     //Contacts page route
     public function contacts()

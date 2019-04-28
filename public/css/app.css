@@ -332,6 +332,82 @@
   color: inherit;
 }
 
+.project-containter-padding {
+  padding-top: 15vh;
+}
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: linear-gradient(135deg, #fcdf8a 0%, #f38381 100%);
+  padding-top: 2vh;
+  border-radius: 5%;
+  margin-left: 2vw;
+  margin-top: 5vh;
+  width: auto;
+  height: 40vh;
+  font-family: "Share Tech Mono", monospace;
+  color: #000000;
+}
+
+.project-card .project-title {
+  position: absolute;
+  width: auto;
+  font-size: 2vh;
+  padding-bottom: 5vh;
+}
+
+.project-card .project-details {
+  width: auto;
+  padding-top: 6vh;
+  position: absolute;
+}
+
+.project-card .project-tags {
+  position: absolute;
+  padding-top: 15vh;
+}
+
+.project-card .project-design {
+  position: absolute;
+  bottom: 10vh;
+  left: 30%;
+}
+
+.project-card .project-code {
+  color: white;
+  position: absolute;
+  left: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card .project-code {
+    bottom: 2vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .project-card .project-code {
+    bottom: 5vh;
+  }
+}
+
+.modal-button-exit {
+  position: fixed;
+  top: 15px;
+  right: 40px;
+}
+
+.model-exit-icon {
+  color: red;
+  width: 15px;
+  height: 15px;
+  z-index: 1050;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

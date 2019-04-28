@@ -5,7 +5,7 @@
 @section('content')
 
     {{-- Landing page --}}
-    @include('land-page')
+    @include('templates.land-template')
 
     {{-- Home Information page --}}
     @include('info.home-info')

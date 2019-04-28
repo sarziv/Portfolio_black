@@ -24,7 +24,6 @@
 
 
 <script src="<?php echo e(asset('js/app.js')); ?>"></script>
-<script src="<?php echo e(asset('js/navbar.js')); ?>"></script>
 <script src="<?php echo e(asset('js/lax.min.js')); ?>" ></script>
 
 <script type="text/javascript">

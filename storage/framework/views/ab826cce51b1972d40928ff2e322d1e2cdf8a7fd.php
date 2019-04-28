@@ -9,4 +9,4 @@
 
     </div>
     </div>
-</div><?php /**PATH /home/vagrant/Portfolio_black/resources/views/land-template.blade.php ENDPATH**/ ?>
+</div><?php /**PATH /home/vagrant/Portfolio_black/resources/views/templates/land-template.blade.php ENDPATH**/ ?>
