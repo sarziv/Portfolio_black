@@ -17,28 +17,20 @@
 </head>
 
 <body>
+<div>
+    <?php echo $__env->make('extra.loading', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+</div>
 <div id="app">
     <?php echo $__env->make('navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     <?php echo $__env->yieldContent('content'); ?>
 </div>
 
 
+
 <script src="<?php echo e(asset('js/app.js')); ?>"></script>
-<script src="<?php echo e(asset('js/lax.min.js')); ?>" ></script>
+<script src="<?php echo e(asset('js/lax.min.js')); ?>"></script>
 
-<script type="text/javascript">
-//lax
-    window.onload = function() {
-        lax.setup() // init
 
-        const updateLax = () => {
-            lax.update(window.scrollY)
-            window.requestAnimationFrame(updateLax)
-        }
-
-        window.requestAnimationFrame(updateLax)
-    };
-</script>
 
 </body>
 </html><?php /**PATH /home/vagrant/Portfolio_black/resources/views/app.blade.php ENDPATH**/ ?>

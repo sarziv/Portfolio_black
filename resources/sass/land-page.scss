@@ -1,13 +1,13 @@
 @import "variables";
 
 .land-page {
+  width: 100vw;
   z-index: -1;
   font-family: "Share Tech Mono", monospace;
   padding-top: 30vh;
   color: $black;
   height: 90vh;
   clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
-  //background-image: url("../images/minh-pham-1511848-unsplash.jpg");
   background-size: cover;
   opacity: 0.9;
 

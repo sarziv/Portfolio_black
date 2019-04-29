@@ -79,6 +79,7 @@
 }
 
 .land-page {
+  width: 100vw;
   z-index: -1;
   font-family: "Share Tech Mono", monospace;
   padding-top: 30vh;
@@ -179,7 +180,7 @@
   z-index: -1;
   height: 60vh;
   width: auto;
-  background-image: url(/images/mockaroon-773721-unsplash.jpg?5f813e7cfe001f1314c81e53f0bb12fb);
+  background-image: url(/images/mockaroon-773721-unsplash.jpg?53eda85a1306522c035335aba9bdfc6d);
   -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
           clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
   background-size: cover;
@@ -342,9 +343,11 @@
 }
 
 .project-card {
-  background: linear-gradient(135deg, #fcdf8a 0%, #f38381 100%);
+  color: white !important;
+  background: linear-gradient(135deg, #000000 0%, #ffffff 100%);
   padding-top: 2vh;
-  border-radius: 5%;
+  border: 1px #ffeb00 solid;
+  border-radius: 1%;
   margin-left: 2vw;
   margin-top: 5vh;
   width: auto;
@@ -374,13 +377,12 @@
 .project-card .project-design {
   position: absolute;
   bottom: 10vh;
-  left: 30%;
+  left: 28%;
 }
 
 .project-card .project-code {
-  color: white;
   position: absolute;
-  left: 30%;
+  left: 28%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -393,6 +395,24 @@
   .project-card .project-code {
     bottom: 5vh;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card button {
+    width: 30vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .project-card button {
+    width: 7vw;
+  }
+}
+
+.project-card .btn-outline-dark {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: 1px #ffeb00 solid;
 }
 
 .modal-button-exit {
@@ -11068,5 +11088,77 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+@keyframes lds-blocks {
+  0% {
+    background: #ffeb00;
+  }
+
+  12.5% {
+    background: #fff300;
+  }
+
+  12.625% {
+    background: #ffd007;
+  }
+
+  100% {
+    background: #000000;
+  }
+}
+
+@-webkit-keyframes lds-blocks {
+  0% {
+    background: #ffffff;
+  }
+
+  12.5% {
+    background: #ffffff;
+  }
+
+  12.625% {
+    background: #1d0e0b;
+  }
+
+  100% {
+    background: #1d0e0b;
+  }
+}
+
+.lds-blocks {
+  top: 40vh;
+  position: fixed;
+  background-color: transparent;
+  display: block;
+  z-index: 1060;
+}
+
+@media only screen and (max-width: 600px) {
+  .lds-blocks {
+    left: 25vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .lds-blocks {
+    left: 45vw;
+  }
+}
+
+.lds-blocks div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #1d0e0b;
+  -webkit-animation: lds-blocks 1s linear infinite;
+  animation: lds-blocks 1s linear infinite;
+}
+
+.lds-blocks {
+  width: 20% !important;
+  height: 20% !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
 }
 

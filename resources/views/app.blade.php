@@ -17,28 +17,20 @@
 </head>
 
 <body>
+<div>
+    @include('extra.loading')
+</div>
 <div id="app">
     @include('navbar')
     @yield('content')
 </div>
 
 
+
 <script src="{{ asset('js/app.js') }}"></script>
-<script src="{{ asset('js/lax.min.js')}}" ></script>
+<script src="{{ asset('js/lax.min.js') }}"></script>
 
-<script type="text/javascript">
-//lax
-    window.onload = function() {
-        lax.setup() // init
 
-        const updateLax = () => {
-            lax.update(window.scrollY)
-            window.requestAnimationFrame(updateLax)
-        }
-
-        window.requestAnimationFrame(updateLax)
-    };
-</script>
 
 </body>
 </html>

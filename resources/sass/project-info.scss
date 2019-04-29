@@ -10,9 +10,11 @@
 }
 
 .project-card {
-  background:linear-gradient(135deg, #fcdf8a 0%,#f38381 100%);
+  color: $white !important;
+  background:linear-gradient(135deg, #000000 0%, #ffffff 100%);
   padding-top: 2vh;
-  border-radius: 5%;
+  border: 1px $yellow solid;
+  border-radius: 1%;
   margin-left: 2vw;
   margin-top: 5vh;
   width: auto;
@@ -40,14 +42,13 @@
   .project-design {
     position: absolute;
     bottom: 10vh;
-    left: 30%;
+    left: 28%;
   }
 
   .project-code {
-    color: $white;
     position: absolute;
+    left: 28%;
 
-    left: 30%;
     //Mobile
     @media only screen and (max-width: 600px) {
       bottom: 2vh;
@@ -56,6 +57,24 @@
     @media only screen and (min-width: 600px) {
       bottom: 5vh;
     }
+  }
+  //Mobile
+  @media only screen and (max-width: 600px) {
+    button {
+      width: 30vw;
+    }
+  }
+  //Desktop
+  @media only screen and (min-width: 600px) {
+    button {
+      width: 7vw;
+    }
+  }
+  //override
+  .btn-outline-dark {
+    background: rgb(0,0,0,0.4);
+    color: $white;
+    border: 1px $yellow solid;
   }
 
 }
