@@ -380,7 +380,7 @@
 .project-card .project-code {
   color: white;
   position: absolute;
-  left: 35%;
+  left: 30%;
 }
 
 @media only screen and (max-width: 600px) {

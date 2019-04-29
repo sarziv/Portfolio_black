@@ -17,18 +17,29 @@
                     <div class="d-inline bill">
                         <span class="badge badge-pill badge-light"><?php echo e($tagList); ?></span>
                     </div>
-                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </div>
-            <div class="project-code">
-               <button class="btn btn-outline-dark">Code
-                   <i class="fab fa-git"></i>
-               </button>
-        </div>
             <div class="project-design">
-                <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#projectNR-<?php echo e($project['id']); ?>">Design
+                <button type="button" class="btn btn-outline-dark" data-toggle="modal"
+                        data-target="#projectNR-<?php echo e($project['id']); ?>">Design
                     <i class="far fa-object-ungroup"></i>
                 </button>
             </div>
+            <div class="project-code">
+                <?php if(!empty($project['github'])): ?>
+                    <a href="<?php echo e($project['github']); ?>">
+                        <button class="btn btn-outline-dark">Public
+                            <i class="fab fa-git"></i>
+                        </button>
+                    </a>
+                <?php else: ?>
+
+                    <button class="btn btn-outline-dark" disabled>Private
+                        <i class="fab fa-git"></i>
+                    </button>
+                <?php endif; ?>
+            </div>
+
         </div>
         <?php echo $__env->make('templates.project-modal', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>

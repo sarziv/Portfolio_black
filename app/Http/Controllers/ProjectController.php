@@ -43,13 +43,12 @@ class ProjectController extends BaseController
                     'name' => 'Salary system',
                     'details' => 'System for counting salaries, tracking data',
                     'tags' => ['Laravel', 'php', 'MySQl', 'Bootstrap', 'CSS', 'HTML', 'Responsive'],
-                    'github' => 'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1394&q=80',
+                    'github' => 'https://github.com/sarziv/salarysystem',
+                    'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
-                        'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
-                        'all' => [
                             'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
-                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d'
-                        ]],
+                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
+                        ],
 
                 ],
                 [
@@ -58,12 +57,11 @@ class ProjectController extends BaseController
                     'details' => 'Crypto currency API, sandbox environment experiment.',
                     'tags' => ['Laravel', 'php', 'API'],
                     'github' => 'https://github.com/sarziv/coingate',
+                    'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
-                        'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
-                        'all' => [
-                            'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
-                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d'
-                        ]],
+                        'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
+                        'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
+                    ],
 
                 ],
                 [
@@ -72,12 +70,11 @@ class ProjectController extends BaseController
                     'details' => 'System for managing, creating orders.',
                     'tags' => ['LAMP', 'Responsive', 'CSS', 'HTML'],
                     'github' => 'https://github.com/sarziv/IT_Projektas',
+                    'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
-                        'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
-                        'all' => [
                             'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
-                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d'
-                        ]],
+                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
+                        ],
 
                 ],
                 [
@@ -86,12 +83,11 @@ class ProjectController extends BaseController
                     'details' => 'File upload and management system',
                     'tags' => ['php', 'HTML', 'CSS', 'JS'],
                     'github' => 'https://github.com/sarziv/salarysystem',
+                     'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
-                        'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
-                        'all' => [
                             'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
-                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d'
-                        ]],
+                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
+                        ],
                 ],
                 [
                     'id' => '5',
@@ -99,13 +95,11 @@ class ProjectController extends BaseController
                     'details' => 'Gambling Machine',
                     'tags' => ['HTML', 'CSS', 'JS'],
                     'github' => 'https://github.com/sarziv/2SideWebsite',
-
+                    'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
-                        'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
-                        'all' => [
                             'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
-                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d'
-                        ]],
+                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
+                        ],
                 ],
                 [
                     'id' => '6',
@@ -113,13 +107,11 @@ class ProjectController extends BaseController
                     'details' => 'PHP Games, Modules',
                     'tags' => ['PHP'],
                     'github' => '',
-
+                    'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
-                        'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
-                        'all' => [
                             'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
-                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d'
-                        ]],
+                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
+                        ],
                 ],
                 [
                     'id' => '7',
@@ -127,13 +119,11 @@ class ProjectController extends BaseController
                     'details' => 'Gambling Machine',
                     'tags' => ['HTML', 'CSS', 'JS'],
                     'github' => 'https://github.com/sarziv/2SideWebsite',
-
+                    'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
-                        'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
-                        'all' => [
                             'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
-                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d'
-                        ]],
+                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
+                        ],
                 ],
                 [
                     'id' => '8',
@@ -141,13 +131,11 @@ class ProjectController extends BaseController
                     'details' => 'E-commerce shop',
                     'tags' => ['Laravel', 'HTML', 'CSS', 'JS'],
                     'github' => '',
-
+                    'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
-                        'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
-                        'all' => [
                             'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',
-                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d'
-                        ]],
+                            'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
+                        ],
                 ],
 
             ]];

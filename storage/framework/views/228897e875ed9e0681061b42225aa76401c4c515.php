@@ -1,7 +1,7 @@
 <?php $__env->startSection('content'); ?>
 
     
-    <?php echo $__env->make('land-page', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+    <?php echo $__env->make('templates.land-template', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
     
     <?php echo $__env->make('info.home-info', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
