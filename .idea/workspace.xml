@@ -2,8 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18a30a59-d0e6-45b0-be40-b8359dfe0ef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/templates/project-template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/templates/project-template.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ygcTi1UD9gA0EC6Y9pK6fria1nUIjmQsGrm4JCEo" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/ygcTi1UD9gA0EC6Y9pK6fria1nUIjmQsGrm4JCEo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/info/about-info.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/info/about-info.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/0WV9yR44WYoPhv0JtvtyPEPnFU39w33qYq3cT4j4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/0XTwiIK6giQ1C8wk9HrrEOwMsa6qJV3Lmv0ngVgi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/1vdriVqj1We7HV1kBQ5fBK0gBam4rfczK102yqOK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/2G7G9wpj2BtJomrB6xnhHBlnZSYMGf6YeVqRnBi3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/4yQJSDbylxRgaFqyHdIGl84CjvMpg3xk89vVsdtG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/5y8oeU2AnBToY1jI3mTBtpGlstEdDfDEiZ8gOVX4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/8mtMCRThZOsmEv4k0tNLuAA9cSeBwQ3xSxvhD0G6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/9SfjNZROiSBF47mQPSAuf4JAizEHoBW2cgDcb0Kh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/AXA1zkKZ6JwCnBLczXqRzvJm6SKu8NG750wCbzDl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/B19n45FAnJgfYJuxi2XrLPVEOulGBFZeslvEcEZp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/CBjRtSjjQeQCOqZX5pA0ySRXhGdo7x15uYhxqT9N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/DI4EBhdhAvfrvUNVPN3X3xDp022LLz4e3DTe6VPl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/DRJNf3gRtlBRPp3rrzATLSU9urMrBlScjt587wKC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/F73vOEOiPUNypn3L3wyZETWbZI6t4yiulLlKPZCo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/FLrObTYX94TmyDgcSqta67NqPz7M2O6sxCrsplmm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/FXmxoE0y2dF2NtQbe05UH3CjuQsedzLowgZtjKVS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/FmAwQPPILRFZju14BPxLLdYX9UWohssAnSTpdwtX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/FxQYgUxC9nDQuWqVKdkPr29LWDFeHp6Gi20SAysK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/G1Yj4WyruXlrcVn45oDJgnxc5qTUTcjv1MZAmpaX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/G3VpWaaXVP2GyeUSXWoGXXf0QrdTNeTe41TmFXjW" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/HRSttT5ZlRZVCgfRjwWAgwGenJJTXxzVHVYGQ1Gx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/I7nnzZqiggdOWRbj7iYrV7nPsGA9u4EpaKmNgVQ1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/JFtFWsUospzjfdeQQfYVOYYpd8FHY4ZjbXoYeCMZ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/KjbcBqC4mPIIdyN1Ja5hCWEGjDNoSS0U7r9zAmYF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/LKplVwya055lTxjsZSA6OcEe0hFXgBkrgV0WNOiL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/LPrFIUb2cp5gesoYTsr80JdgCyBCB9Vy8gMXVH3K" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/LiBmcDmEqS246zrbBvovDrXitsNd0dlgcWgVxJau" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/LtRofY6lYSZTVxMroyGJlWnWEY5ZxA8SK27eKde6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Lxeuua0dieNoxSLSIyYQaZvQuZq0XSuZJ0uPstHJ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/MYKSXZXKYbK4pzb2ElUEiPaf68svegjQF379rHcn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/NIZzvHRnpSd6ZleD843RgnCpI3CSKyrKLpfEptHU" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/OJckNQ468Idl3pJHXemaSAlmOkhY6KcCwzrw28Vx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/OOkvvvZocBTOAoIzEQSlWkFKppbTCRvOZgFKWTwH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/OW65zRmKSPyoFikrOzp3UlPKJReRjw7CNjn79xOc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/OWf9syRxDRS9b5Pf88lrLn6YqOneRdw8Fp6NSCVN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/QAX9kVUOqi8LNViU6n1kEQaQJBP5mTPM97GJv8i7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/QSBuC1VRZ0JpqUrwZEvr5ttal7K1PwNx3KcCguJ1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/S9jw37iDlwKxVHeKThl0d8aOuma9cxpr1mchzAWZ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/SM9u7tnCpd6zrxpT36a5EcDdN6TRNjJYjEltyXFk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Snij7yvJZQhTQo2cJxwRey07UE4JdZ3aByqpDygl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/TAIJB8TxyzmIhh8QHR6UghepODcSIGTAFfh05ohj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/TeHLarsSmNI8zdRyGlHkHvj4wIttv9Rv7YpdTzZc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/UAVwrVbSp3LGxWLCpaKIYUfm0wUSvFh1oiJim0IN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/UVyjQ3SZFMidwKYnXSDmPmsypzNmbUmPhNhLjU3U" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/UX03xwtnTq5SZmjyNXjtXwrG5Le1GNDosUjeugBn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/UoyosCGlefaIuJkxW06Esqz6vPK8UQIeOv2ent46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/UrVE7d3HR9QQr7imhTFAlhp0C7v10w2EZcIMFIyI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/VXGdawvlYGdeUSrQBCLoOkNGB0ZoGo8m0Hm0dGK0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/VnAXGmnqDqZ00AeSCThdFhihTjANUZaDsJMUdWR6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/VpVmt9yPqKDfHy5iISLsTjDzCoIm6H1S8URmV1aG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/W2MoRHplXSxZL7NhZOXyZuHirBupN7DCRTUgUrnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/WNZNxw3kenH6Zn8exbjahv8YINcM2WGTG95PYPL9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Wb7sqhPe4F62qk27IstD9nEnS24NyDeHLVMEKY4y" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/X9KrBJeGoomCV7LfelIbiH0UCYEOcvHnq7M9x938" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/XEvYuFsDSxTucnx0aiPU4erIlpI58icWAKAQ0pST" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Y0VVeLQSneFaAOLlS5WKTfC2pS5b40xRxtrfgnoR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/YPXIdLYNuhWINFFTukrzbcXobk1xurQIgQ3osWOa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/YvwKjDHeyIFWa5vZs1x4GMk4swutKKOOtZF6AqGk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ZNmouudTCWkuVbrK86FROu9MVE2uBcdgfpZ4m3I7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ZmxQenkMhLCGRFVOPH8hR1aBTmhKFkN0TsIrV5HK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/aJ8om7U2NeMO5NYCZG9I12hxN4WAHzzyx58hnRAP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/agw02nSHxuMsTAssAMBdy51yIvQCfNHcP0rKNpN0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/bP2bjRA3D9tBvOKOIY7zArxtm6KAAhBAxY2KHg9x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/bUZ32tU852JShrAHSk7T4XpuBXBHIuBxzayiWs72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/bdFnfxiocg5fL6RSeJGBtgP0qAmeYOflG4Wt22QG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ct4Acwxp88av2cGPcbZ5QAYRa6FEJPY0J6BmkeqX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/d51FAWE19tF6hcxpcyCnuaP6npUwOissll8fcDx3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/dVUdcG491ohhjmQqaJbDqR2rtzGeWh8MZ28CSt9O" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/dtbzwrl4PmPkgsKqsUjtMMNsTkEtzq7pP15TRkk0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ehBaHDvhr8XrxOL5LGu1rMe5bLhwLXxBy9le3wfI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/gPSOi9ByA7NcRnRoaqbb4sMoIjS3iEyfqX210SjO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/gSYVKjYfBqVowLQf1dnt9mTU3xJw6iFJ4h5XUQiH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/hDMTSbXXFNYb8SydGKomd16mQ15MN1vPlwAyI29J" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/jgaKOFgvYqY21V3fa9rPBGC4yEV7pR1ABhXqm2yM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/nGi7yw6go7xK7CmWXqvH4YX2iA0sVzzFsoTyPZi9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/nKEqunZwpIF3efVZxczwhGMY7zcAxTwsgthsPf3v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/njpkZpoDfXHcQREi6XTtZJiywQg3vRSs5OPO1ez2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/o00HtAH7UcVOPoqqpX15mdfabVbCnfFy3Bc92LrT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/oljGhDrbH2M7n6G2FCBtZDrrTpXPzgLXLLZw2ATQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/oqRxqCHEnoZFZEl5ke9oa0OS7lGqR4ezGD07Ket7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/q5M9V6yYfqRFlKJB3olVS2yf0203up7JkqDMbzax" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/qkhWkUVuNrRg0yTTOG6MdkqGNgpEVubYGEhU7Tbi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/sRhoSirATaileYePHiyDslTsgZ971jsyKbSCtLoH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/tNImi9RJ5GoI5Wonk5TWwOfr2305UiL2fNVmDEbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ua6anhpmzyZFyNqbG20ODAi8nK9WKiead1RFUkoo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/uhy2q7miesnrnFGlxS0fIKzF74Bc5qz1ZSbRjYYh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/vGnxqRLmOCsadJitJ4pML27wU5j5hoCcP3jDXpRi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/vusb9txBCbzCBksrGNufSJ7Muu6bv0GzNmsc4NRP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/we9fSt8QJ6Vtz6VQrAQyA0D6T5Ym39w9qfKVUaPr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/wzdENwza2TUuarfVruLF4jthNXbAeREngUFo87DT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/xBx7pvG8hkfWQ11GzZlSLDshQYTtzT4bl7HtJGJq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ygs9xMMRgdskYEGRK8husgm2g77xU3JLXf9tcgym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/b3188be212df4ca473e53ed04ac86e01020fa308.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/b3188be212df4ca473e53ed04ac86e01020fa308.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +125,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/templates/project-template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            <state relative-caret-position="340">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -48,8 +140,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/info/about-info.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -58,7 +159,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -148,7 +249,6 @@
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/info/project-info.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/info/about-info.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/contacts.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/project-info.scss" />
         <option value="$PROJECT_DIR$/resources/sass/contacts.scss" />
@@ -163,6 +263,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" />
         <option value="$PROJECT_DIR$/resources/views/templates/project-template.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/info/about-info.blade.php" />
       </list>
     </option>
   </component>
@@ -290,6 +391,12 @@
               <item name="Portfolio_black" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio_black" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio_black" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio_black" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Portfolio_black" type="b2602c69:ProjectViewProjectNode" />
@@ -463,7 +570,7 @@
       <workItem from="1556551711508" duration="559000" />
       <workItem from="1556552414321" duration="12215000" />
       <workItem from="1556571537121" duration="6734000" />
-      <workItem from="1556624053987" duration="25634000" />
+      <workItem from="1556624053987" duration="27478000" />
     </task>
     <servers />
   </component>
@@ -473,7 +580,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140758000" />
+    <option name="totallyTimeSpent" value="142602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,7 +601,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.47302905" side_tool="true" weight="0.17738359" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49667406" weight="0.21155943" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49667406" visible="true" weight="0.21155943" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4950111" weight="0.39040348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,13 +662,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/projects.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -730,13 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/info/about-info.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/about.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -862,17 +955,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -885,11 +971,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/templates/project-template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        <state relative-caret-position="340">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/icons/css3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/info/about-info.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
     </entry>

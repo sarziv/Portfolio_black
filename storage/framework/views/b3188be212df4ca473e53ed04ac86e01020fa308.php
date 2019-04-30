@@ -21,12 +21,12 @@
         I work with...
         <div class=" about-info-img">
             <div class="d-inline align-content-center">
-                <img alt="" src="<?php echo e(asset('icons/laravel.png')); ?>">
-                <img alt="" src="<?php echo e(asset('icons/php.png')); ?>">
-                <img alt="" src="<?php echo e(asset('icons/jquery.png')); ?>">
-                <img alt="" src="<?php echo e(asset('icons/html5.png')); ?>">
-                <img alt="" src="<?php echo e(asset('icons/css3.png')); ?>">
-                <img alt="" src="<?php echo e(asset('icons/js.png')); ?>">
+                <img alt="" src="https://i.imgur.com/rj6hxaz.png">
+                <img alt="" src="https://i.imgur.com/k5vjBlq.png">
+                <img alt="" src="https://i.imgur.com/jQ3ERdq.png">
+                <img alt="" src="https://i.imgur.com/B8e0P1R.png">
+                <img alt="" src="https://i.imgur.com/IDGaVS3.png">
+                <img alt="" src="https://i.imgur.com/fzeUhS9.png">
             </div>
 
         </div>
