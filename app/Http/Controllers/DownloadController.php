@@ -9,9 +9,9 @@ class DownloadController extends BaseController {
 
     public function download_cv_eng() {
 
-        $file = resource_path('download/cv_eng.png');
+        $file = resource_path('download/cv_eng.pdf');
 
-        return response()->download($file,'Sarunas_Zivila_ENG.png');
+        return response()->download($file,'Sarunas_Zivila_ENG.pdf');
 
     }
     public function download_cv_lt() {

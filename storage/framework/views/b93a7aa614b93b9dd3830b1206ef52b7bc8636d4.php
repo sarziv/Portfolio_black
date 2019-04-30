@@ -19,7 +19,7 @@
                             </div>
                         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     </div>
-                    <div class="project-design" style="display: none">
+                    <div class="project-design">
                         <button type="button" class="btn btn-outline-dark" data-toggle="modal"
                                 data-target="#projectNR-<?php echo e($project['id']); ?>">Design
                             <i class="far fa-object-ungroup"></i>
@@ -41,6 +41,8 @@
                     </div>
 
                 </div>
+
+            <?php//Off for public atm @include('templates.project-modal')?>
 
             <?php endif; ?>
         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
