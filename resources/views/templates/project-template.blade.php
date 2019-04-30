@@ -39,7 +39,9 @@
                     </div>
 
                 </div>
-                @include('templates.project-modal')
+
+            @php//Off for public atm @include('templates.project-modal')@endphp
+
             @endif
         @endforeach
     </div>
