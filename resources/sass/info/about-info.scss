@@ -1,0 +1,110 @@
+@import "../variables";
+
+.about-info {
+  font-family: "Share Tech Mono", monospace;
+  width: auto;
+  height: 40vh;
+  margin-bottom: 10vh;
+
+  color: $white;
+  //Mobile
+  @media only screen and (max-width: 600px) {
+    margin-top: 5vh;
+  }
+  //Desktop
+  @media only screen and (min-width: 600px) {
+    margin-top: 18vh;
+  }
+
+
+  .about-info-text {
+    color: $yellow;
+    font-size: $font-size-info-big;
+
+  }
+  .extra-padd {
+    padding-top: 8vh;
+  }
+
+
+  .about-info-bar {
+    padding-top: 15vh;
+    font-size: $font-size-info-small;
+  }
+}
+
+.about-info-details {
+
+  z-index: -1;
+  height: 60vh;
+  width: auto;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,242,36,0.865983893557423) 0%, rgba(40,111,27,1) 0%, rgba(201,61,5,1) 0%, rgba(0,212,255,1) 100%, rgba(9,121,31,1) 100%);
+  clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+
+
+  //Desktop
+  @media only screen and (min-width: 600px) {
+    .about-info-details-font {
+      background: transparent;
+      text-align: center;
+      padding-top: 20vh;
+      font-family: "Share Tech Mono", monospace;
+      font-size: $font-size-info-big;
+      color: $yellow;
+      z-index: 100;
+    }
+  }
+
+  //Mobile
+  @media only screen and (max-width: 600px) {
+    .about-info-details-font {
+      background: transparent;
+      text-align: center;
+      padding-top: 15vh;
+      font-family: "Share Tech Mono", monospace;
+      font-size: $font-size-info-big;
+      color: $yellow;
+      z-index: 100;
+    }
+  }
+
+  .about-info-img {
+
+    //Desktop
+    @media only screen and (min-width: 600px) {
+      img {
+        border-radius: 20%;
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    //Mobile
+    @media only screen and (max-width: 600px) {
+      img {
+        border-radius: 20%;
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+  }
+
+  .about-info-buttons:hover {
+    border: 2px $yellow solid;
+    background-color: $black;
+    color: $yellow;
+  }
+
+  //link override
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}

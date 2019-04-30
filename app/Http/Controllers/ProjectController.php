@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Project;
 use Illuminate\Routing\Controller as BaseController;
+use mysql_xdevapi\Session;
 
 
 class ProjectController extends BaseController
@@ -30,7 +32,6 @@ class ProjectController extends BaseController
             'background' => '../images/jeshoots-com-219386-unsplash.jpg'
         ];
         return $this->Info;
-
     }
 
      /*Dynamic project generation*/
@@ -86,7 +87,7 @@ class ProjectController extends BaseController
                     'name' => 'Droperino',
                     'details' => 'File upload and management system',
                     'tags' => ['php', 'HTML', 'CSS', 'JS'],
-                    'github' => 'https://github.com/sarziv/salarysystem',
+                    'github' => '',
                     'front' => 'https://images.unsplash.com/photo-1445295029071-5151176738d0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b06f7f69fb043b7d35a48180c5668d',
                     'album' => [
                         'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1394&q=80',

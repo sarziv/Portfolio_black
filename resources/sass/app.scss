@@ -11,7 +11,7 @@
 @import 'navbar';
 
 // Landing page
-@import 'land-page';
+@import 'info/land-page';
 
 // Footer page
 @import 'footer';
@@ -19,13 +19,15 @@
 //-------- Content --------
 
 // Home info page
-@import 'home-info';
+@import 'info/home-info';
 
 // About info page
-@import 'about-info';
+@import 'info/about-info';
 
 // About info page
-@import 'project-info';
+@import 'info/project-info';
+// About info page
+@import 'info/contacts-info';
 
 //-------- Bootstrap --------
 

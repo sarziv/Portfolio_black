@@ -22,9 +22,14 @@ Route::get('/about', 'RouteController@about');
 Route::get('/contacts', 'RouteController@contacts');
 
 //Project Controller
-Route::get('/projects', 'ProjectController@projects');
+Route::get('/projects', [
+    'uses' => 'ProjectController@projects',
+    'as' => 'project.home'
+]);
 
-
-
-//Download
-Route::get('/cv', 'DownloadController@download_CV');
+//Download CV ENG
+Route::get('/cv_eng', 'DownloadController@download_cv_eng');
+//Download CV LT
+Route::get('/cv_lt', 'DownloadController@download_cv_lt');
+//Download Credits
+Route::get('/credits', 'DownloadController@download_Credits');

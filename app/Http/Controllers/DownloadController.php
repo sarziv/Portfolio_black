@@ -7,11 +7,25 @@ use Illuminate\Routing\Controller as BaseController;
 
 class DownloadController extends BaseController {
 
-    public function download_CV() {
+    public function download_cv_eng() {
 
-        $file = resource_path('download/cv_placeholder');
+        $file = resource_path('download/cv_eng.png');
 
-        return response()->download($file,'Sarunas_Zivila.pdf');
+        return response()->download($file,'Sarunas_Zivila_ENG.png');
+
+    }
+    public function download_cv_lt() {
+
+        $file = resource_path('download/cv_lt.pdf');
+
+        return response()->download($file,'SZ_lt_OLD.pdf');
+
+    }
+    public function download_Credits() {
+
+        $file = resource_path('download/credits.txt');
+
+        return response()->download($file,'credits.txt');
 
     }
 }

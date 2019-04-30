@@ -1,5 +1,7 @@
 {{--Project page--}}
-<div class="container">
-    {{--Project display --}}
+
+    {{--Project display container --}}
     @include('templates.project-template')
 </div>
+
+@include('info.project-info-additional')

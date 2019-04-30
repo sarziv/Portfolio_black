@@ -17,7 +17,6 @@ class RouteController extends BaseController
     }
 
     //Home page route
-
     public function home()
     {
 

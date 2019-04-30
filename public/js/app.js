@@ -36832,6 +36832,7 @@ $(document).ready(function () {
   //laxx
   window.onload = function () {
     //mini loader
+    $('.loadmore').removeClass('display');
     $('.lds-blocks').css('display', 'none');
     lax.setup(); // init
 
