@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18a30a59-d0e6-45b0-be40-b8359dfe0ef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/download/cv_eng.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/download/cv_eng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/b93a7aa614b93b9dd3830b1206ef52b7bc8636d4.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/b93a7aa614b93b9dd3830b1206ef52b7bc8636d4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/templates/project-template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/templates/project-template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ygcTi1UD9gA0EC6Y9pK6fria1nUIjmQsGrm4JCEo" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/ygcTi1UD9gA0EC6Y9pK6fria1nUIjmQsGrm4JCEo" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +33,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/templates/project-template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+            <state relative-caret-position="323">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/resources/views/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/info/project-info-additional.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" />
-        <option value="$PROJECT_DIR$/resources/views/templates/project-template.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" />
+        <option value="$PROJECT_DIR$/resources/views/templates/project-template.blade.php" />
       </list>
     </option>
   </component>
@@ -463,7 +463,7 @@
       <workItem from="1556551711508" duration="559000" />
       <workItem from="1556552414321" duration="12215000" />
       <workItem from="1556571537121" duration="6734000" />
-      <workItem from="1556624053987" duration="25577000" />
+      <workItem from="1556624053987" duration="25634000" />
     </task>
     <servers />
   </component>
@@ -473,7 +473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140701000" />
+    <option name="totallyTimeSpent" value="140758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -862,20 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/templates/project-modal.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="125" selection-start-line="28" selection-start-column="125" selection-end-line="28" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/templates/project-template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -887,6 +873,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/project-modal.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="125" selection-start-line="28" selection-start-column="125" selection-end-line="28" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/project-template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

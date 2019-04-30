@@ -19,7 +19,7 @@
                             </div>
                         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     </div>
-                    <div class="project-design">
+                    <div class="project-design" style="display: none">
                         <button type="button" class="btn btn-outline-dark" data-toggle="modal"
                                 data-target="#projectNR-<?php echo e($project['id']); ?>">Design
                             <i class="far fa-object-ungroup"></i>

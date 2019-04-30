@@ -17,7 +17,7 @@
                             </div>
                         @endforeach
                     </div>
-                    <div class="project-design">
+                    <div class="project-design" style="display: none">
                         <button type="button" class="btn btn-outline-dark" data-toggle="modal"
                                 data-target="#projectNR-{{$project['id']}}">Design
                             <i class="far fa-object-ungroup"></i>
