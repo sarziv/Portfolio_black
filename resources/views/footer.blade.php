@@ -5,7 +5,7 @@
             <div class="col-sm-6">
                 Download Resume type: <br><br>
                 <a href="{{url('/cv_eng')}}" class=" btn resumeButton">Resume-ENG</a>
-                <a href="{{url('/cv_lt')}}" class=" btn resumeButton">Resume-LT(old)</a>
+                <a href="{{url('/cv_lt')}}" class=" btn resumeButton">Resume-LT</a>
             </div>
 
             <div class="col-sm-3">
